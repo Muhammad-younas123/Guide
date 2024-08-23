@@ -53,7 +53,7 @@ USE **git add ** command.
 
 USE **git commit -m "pass your message here"** message is mandatory to pass to tell the git what your wile does or what is its purpose.
 
-#### Viewing Commit History###
+#### Viewing Commit History
 
 USE **git log**:Displays the history of your repos and commit history.It also has a version that shows the the history in one line to view the history in one line use the command (**git log --oneline**)
 
@@ -127,13 +127,13 @@ View the history of commits:
 
 ## Creating a GitHub Account
 
-To create a GitHub account, go to [ GitHub website ](github.com) and create an account by entering your email and username.
+To create a GitHub account, go to [ GitHub website ](https://github.com/) and create an account by entering your email and username.
 
 ### Configuring GitHub with SSH
 
 To work on GitHub, you need to generate an SSH key and add it to GitHub. Otherwise, you won't be able to use GitHub. -**Generating an SSH Key**Use the following command on your Git Bash terminal:
 
-- ssh-keygen -t ed25519 -C "your-email@chaicode.com"
+- ssh-keygen -t ed25519 -C "your-email@gmail.com"
 - Save the key and paste it to the GitHub website in the SSH key tab.
 
 #### Checking Remote URL Settings
