@@ -50,4 +50,4 @@ element:(any component)
 }]
 }])
 now you have to pass the routing variable that you created to rout provider as a prop
-i.e. <routerprovider router=router>
+i.e. <router provider router=router>
