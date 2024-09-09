@@ -19,7 +19,7 @@ dbms is used to interact a user with the data base.
 
 * **Read:**used to read data from the tables
 
-- **update:**update the data
+- **Update:**update the data
 
 * **DELETE:**to delete the data
 
@@ -57,7 +57,7 @@ table is a combination of rows and coloumns coloumns determine the structure and
   there is another version of create database command that is: create data base
   if exists (it creates if there is not such data base created already)
 
-- **show database** is used to show the databases that exist in your server.
+- **Show database** is used to show the databases that exist in your server.
   show table shows all the tables of the database that you are currently using.
 
 * **CRETAE TABLE COMMAND**: it is used to crate the table i.e. create table tablename(colname datatype CONSTRAINT)
@@ -79,7 +79,7 @@ table is a combination of rows and coloumns coloumns determine the structure and
 
 ### TYPES OF KEYS:
 
-- **primary key:**it is a colounms or set of colounms in a tablethat uniquly identifies a row(there could be only one primary key it will not be null)
+- **Primary key:**it is a colounms or set of colounms in a tablethat uniquly identifies a row(there could be only one primary key it will not be null)
 - **Foreign key:** it is a colounms or set of colounms in a table that refers to the primary key in other table.( there could be multiple foreign keys)
 
 ### CONSTRAINTS:
@@ -90,17 +90,17 @@ constraints are used to specfy rules for data ina table
 
 - **NOT NULL:** coloumn can not have a null value .
   **Unique:** all value sin colounmn must be unique.
-- **primary key:** makes a coloumn unique and not null.
-- \*foreign key:\*\* prevent actions that destroy link between tables.
-- **default:** used to set default value for a coloumn.
-- **check:** used to limit the values allowed in a coloumn.
+- **Primary key:** makes a coloumn unique and not null.
+- **Foreign key:** prevent actions that destroy link between tables.
+- **Default:** used to set default value for a coloumn.
+- **Check:** used to limit the values allowed in a coloumn.
 - **SELECT QUERY:**Used to select the specified data from the table:
 
 * select colname1,colname2 from tablename(to select the specified coloumns)
 
 - select \* from tablenamae(to select all coloumns from table )
 
-* ** WHERE CLAUSE:**where clause is used with select to specify condition on which data is selected.
+* **WHERE CLAUSE:**where clause is used with select to specify condition on which data is selected.
 
 - i.e:select colname from tablename where condition.
 
@@ -114,17 +114,17 @@ operators are used in where clause to specify conditions.
 
 * **LOGICAL OPERATORS:** some logical are between,AND OR ,NOT,IN
 
-- AND : chcks both condition are true:i.e. select \_from table name where condition1 and condition2
+- **AND :** chcks both condition are true:i.e. select \_from table name where condition1 and condition2
 
-* OR :chcks for only one condition to be true:i.e. select \_ from table name where condition1 or condition2
+* **OR :** chcks for only one condition to be true:i.e. select \_ from table name where condition1 or condition2
 
-- BETWEEN: Select data for a given range(i.e. select \_ from students where marks between 80 and 90)
+- **BETWEEN:** Select data for a given range(i.e. select \_ from students where marks between 80 and 90)
 
-* IN: matches any value for the data(i.e. slect \_from cities where city in ("karachi","lahore"))
+* **IN:** matches any value for the data(i.e. slect \_from cities where city in ("karachi","lahore"))
 
-- NOT:used to negate the condition(i.e. slect \*from cities where city not in ("karachi","lahore"))
+- **NOT:**used to negate the condition(i.e. slect \*from cities where city not in ("karachi","lahore"))
 
-* **limit clause:** use to set upper limit on the number of rows to be selected.
+* **Limit clause:** use to set upper limit on the number of rows to be selected.
   i.e select \* from students limit 3.
 
 * **ORDERBY CLAUSE:** it sorts the data in ascending or descending ORDER. - i.e select \_ from students ORDER BY marks ASC.(if you want in descending order use DESC in place of ASC).
