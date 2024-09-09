@@ -15,13 +15,13 @@ dbms is used to interact a user with the data base.
 
 ### CRUD OPERATIONS:
 
-- **create:**used to create the datavbase
+- **create:** used to create the datavbase
 
-* **Read:**used to read data from the tables
+* **Read:** used to read data from the tables
 
-- **Update:**update the data
+- **Update:** update the data
 
-* **DELETE:**to delete the data
+* **DELETE:** to delete the data
 
 **HOW TO INSTALL MYSQL:**
 
